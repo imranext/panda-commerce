@@ -25,3 +25,183 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+.cat1,
+.cat2,
+.cat3 {
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+
+.cat1 {
+    background-image: linear-gradient(45deg, #FF9F34, #FFD019);
+
+}
+
+.cat2 {
+    background-image: linear-gradient(45deg, #FF3786, #FF3E8B);
+}
+
+.cat3 {
+    background-image: linear-gradient(45deg, #427AFF, #3F07F8);
+}
+
+.categories img {
+    width: 100px;
+}
+
+.bg-gray {
+
+    background-color: #F8F8F8;
+    padding: 100px;
+
+}
+
+.card {
+    padding: 30px;
+    border-radius: 10px;
+
+    height: 500px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+
+.buy-button {
+
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+a {
+    color: #FF9D00;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.card-img-top {
+    width: 100$;
+
+}
+
+.cardBag {
+    height: 600px;
+}
+
+#subscribe {
+    height: 300px;
+    margin-top: 80px;
+}
+
+.input-group-texts {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.search-box {
+    padding-right: 30px;
+}
+
+.input-group-texts {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    margin-top: 5px;
+}
+
+
+.form-control {
+
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F8F8F8 !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: 20px !important;
+}
+
+.sbox {
+    width: 500px;
+}
+
+.sendbox {
+    width: 400px;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.input-group-text button {
+    margin-right: -15px;
+}
+
+.form-control:focus+.input-group-append .btn {
+    z-index: 3;
+}
+
+
+
+.btnSend {
+
+    background-image: linear-gradient(to bottom, #FF5898 0%, #FF5898 100%);
+    color: #fff;
+    border: none;
+    border-top-right-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    height: 48px;
+    margin-left: -30px;
+
+}
+
+.form-controlsend {
+
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F8F8F8 !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: 10px !important;
+}
+
+input.form-controlsend.form-control.sendbox {
+    width: 400px;
+    height: 50px;
+}
+
+.sendText {
+    text-align: center;
+}
